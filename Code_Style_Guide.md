@@ -1,8 +1,8 @@
 # Code Style Guide
-This page documents good practices for how to format and style our C++ code
+This page documents good practices for how to format and style our Python code
 
 ## Cases
-- File names are in Pascal Case (`PascalCase`)
+- File names are in lower snake case (`drivetrain_subsytem`)
 - Function names are in Pascal Case (`PascalCase`)
 - Classes are in Pascal Case (`PascalCase`)
 - Constants should be in capitalized snake case (`CAPITALIZED_SNAKE_CASE`)
@@ -10,35 +10,23 @@ This page documents good practices for how to format and style our C++ code
 - Namespaces are Camel Case and one word (`Namespace`)
 
 ## Formatting
-- Indentation is 4 spaces
-- Private variables and functions begin with an underscore (`_lower_snake_case`)
-- Comments should have a space between the double forward slashes (`// This is a comment`)
-- Class and function contents' corresponding curly brackets should have a space before them
-    ```cpp
-    class Driver_Interface {
-        -- snip --
-    };
+- **Always type-hint variables, function paramaters, and function return types**
+    ```python
+    variable: int = 10
 
-    void DrivetrainSubsystem::Periodic() {
-        -- snip --
-    }
+    def function(number: int) -> str:
+        return f"This is now a string: {number}"
     ```
+- Indentation is 4 spaces
+- Private variables begin with an underscore (`_lower_snake_case`)
+- Comments should have a space between the hash (`# This is a comment`)
 - Functions should never be condensed to one line
+- All functions should have a comment describing what it does, what paramaters it takes, and what it returns (if applicable)
+- Classes should also have a comment which describes what that class does and it's paramaters
+- Multiple functions in a class should be seperated by a single new line
+- Sort imports first by standard Python libraries, then by generic WPIlib libraries, and then finally by
 
 ## File Names
-- Corresponding `.cpp` and `.h` files should have the same name
-- Subsystem files are named `<subsystem name>Subsystem`
+- Subsystem files are named `<subsystem name>_subsystem_.py`
 - Commands are separated into `/auton` and `/teleop` folders
-  - The names should be either `Auton<command name>` or `Teleop<command name>`
-
-## Other
-- Namespaces shouldn't be used in `.h` files, but they can be used in `.cpp` files
-- Don't use `@pragma once`, instead use `#ifndef <capitalized filename and file extension>`
-   ```cpp
-    #ifndef FILENAME_H
-    #define FILENAME_H
- 
-    -- snip --
-
-    #endif
-    ```
+  - The names should be either `auton_<command name>.py` or `teleop_<command name>.py`
