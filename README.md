@@ -5,7 +5,9 @@ This repository holds information and documents to help onboard new programming 
 ## Included documentation
 - [C++ Learning](/C++_Learning.md) - Some learning resources for new students to learn C++
 - [Code Style Guide](/Code_Style_Guide.md) - A guide on good consistent code styling
+    - An archived version covering C++ is avaliable [here](./archive/Code_Style_Guide.md)
 - [Commenting Guide](/Commenting_Guide.md) - A guide on when and where to make comments in files
+    - An archived version covering C++ is avaliable [here](/archive/Commenting_Guide.md)
 - [How to Use Git](/How_to_Use_Git.md) - How to use git, both in the terminal and in VSCode
 - [Important Skills](/Important_Skills.md) - A list of specific important programming skills and techniques, for use in future years of robot code
 - [Maintaining Open Scouting](/Maintaining_Open_Scouting.md) - Points to the Open Scouting documentation for the steps needed to get it working at the start of a new season
