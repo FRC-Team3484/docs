@@ -30,7 +30,7 @@ For example, `subsystems/launcher`, `commands/intake`, `subsystems/intake`
 - Any files needed for the `README` in the robot code project should be placed in the `repo` folder
 
 ## Good Commit Practices
-Follow [How to use Git](docs/How_to_Use_Git.md) for general Git usage instructions. This section demonstrates good commit and commit message practices
+Follow [How to use Git](How_to_Use_Git.md) for general Git usage instructions. This section demonstrates good commit and commit message practices
 - **Commit often** - Make a new commit whenever you complete a feature or working part of a feature (creating a new command, updating auton paths, modifying a subsystem, etc)
   - Don't commit to `development`, `testing`, or `main` unless `robotpy test` is passing with no errors. Commits to feature branches can be pushed even if tests aren't passing.
   - Don't commit multiple large changes or features in one commit. If we need to rollback or see when something changed, it's easier if each commit only changes one major feature
