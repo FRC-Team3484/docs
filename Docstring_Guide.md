@@ -7,13 +7,13 @@ The goal of docstrings are to make sure the python linter (utility to help with 
 > [!NOTE]
 > Google's docstring standard can be found [here](google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
 
+### Example
+
 Consider the following function:
 ```python
 def foo(a: int, b: int, c: int) -> bool:
   return (a+b) == int(c)
 ```
-
-### Example
 
 while a google-standard function docstring would look like the following:
 ```python
@@ -44,7 +44,6 @@ ours would look like:
 
 ### Differences
 
-the main difference is the fact that our "Parameters" section is slightly better styled than the google "Args" one.
-
+the main difference is the fact that our "Parameters" section is slightly better styled than the google "Args" one, with bullet points, and explicitly stating types as well.
 other than that, the only other *real* difference is the fact that we use inline codeblock backticks (\`) for every name and type.
 
