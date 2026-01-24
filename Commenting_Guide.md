@@ -23,8 +23,9 @@ class SC_Pathfinding:
 
 ## Functions
 > [!NOTE]
-> we use a modified version of [this](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings) (google's docstring style) for our docstrings.
-> more on the differences [here](/Docstring_Guide.md)
+> we use a modified version of [google's docstring style](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings) for our docstrings.  
+> more on the modifications [here](/Docstring_Guide.md)  
+
 Comment the top of functions to describe the purpose of the function, what paramaters it takes (with the types of the arguments*), and what it returns:
 ```python
     def get_final_alignment_command(self, target: Pose2d) -> commands2.Command:
