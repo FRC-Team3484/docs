@@ -22,21 +22,22 @@ class SC_Pathfinding:
 ```
 
 ## Functions
-Comment the top of functions to describe the purpose of the function, what paramaters it takes, and what it returns
+Comment the top of functions to describe the purpose of the function, what paramaters it takes (with the types of the arguments*), and what it returns:
 ```python
     def get_final_alignment_command(self, target: Pose2d) -> commands2.Command:
         """
         Returns a command to align the robot to a target pose
 
         Parameters:
-            - target (Pose2d): The target pose to align to
-            - defer (bool): Whether to defer the command
+            - target (`Pose2d`): The target pose to align to
+            - defer (`bool`): Whether to defer the command
 
         Returns:
             - Command: The command to align to the target
         """
         --snip--
 ```
+_*we also put them in a little inline code block_
 
 ## Complex Code
 Comments should also be used to explain unique or complex parts of code. Especially when the snippet is complex, potentially hard to understand, or to explain why the snippet is needed.
