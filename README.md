@@ -5,7 +5,7 @@ This repository holds information and documents to help onboard new programming 
 ## Included documentation
 - [C++ Learning](/C++_Learning.md) - Some learning resources for new students to learn C++
 - [Code Style Guide](/Code_Style_Guide.md) - A guide on good consistent code styling
-    - An archived version covering C++ is available [here](./archive/Code_Style_Guide.md)
+    - An archived version covering C++ is available [here](/archive/Code_Style_Guide.md)
 - [Commenting Guide](/Commenting_Guide.md) - A guide on when and where to make comments in files
     - An archived version covering C++ is available [here](/archive/Commenting_Guide.md)
 - [How to Use Git](/How_to_Use_Git.md) - How to use git, both in the terminal and in VSCode
