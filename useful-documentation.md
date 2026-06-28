@@ -7,6 +7,12 @@ This is a list of useful sources of documentation for programming.
 - **[2024 Code](https://github.com/FRC-Team3484/X24_RobotCode)** - https://github.com/FRC-Team3484/X24_RobotCode
 - **[Swerve Base](https://github.com/FRC-Team3484/SwerveBase)** - https://github.com/FRC-Team3484/SwerveBase
 - **[FRC3484 Lib](https://github.com/FRC-Team3484/FRC3484_Lib_Python)** - https://github.com/FRC-Team3484/FRC3484_Lib_Python
+    - There is additional documentation for each feature included in this lib
+        - [Controls](https://github.com/FRC-Team3484/FRC3484_Lib_Python/blob/main/src/frc3484/__lib/controls/README.md)
+        - [Motion](https://github.com/FRC-Team3484/FRC3484_Lib_Python/blob/main/src/frc3484/__lib/motion/README.md)
+        - [Pathfinding](https://github.com/FRC-Team3484/FRC3484_Lib_Python/blob/main/src/frc3484/__lib/pathfinding/README.md)
+        - [Pose Manipulation](https://github.com/FRC-Team3484/FRC3484_Lib_Python/blob/main/src/frc3484/__lib/pose_manipulation/README.md)
+        - [Vision](https://github.com/FRC-Team3484/FRC3484_Lib_Python/blob/main/src/frc3484/__lib/vision/README.md)
 - **[Prototyping Board](https://github.com/FRC-Team3484/PrototypingBoard)** - https://github.com/FRC-Team3484/PrototypingBoard
 
 
